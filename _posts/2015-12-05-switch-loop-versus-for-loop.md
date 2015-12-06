@@ -80,17 +80,10 @@ movies.exmachina = {
   review: "4.5 stars. An eerie and spellbinding foray into the implications of human-level AI. Prepare to be uncomfortable in the best way possible."
 };
 
-var list = function(object) {
-  for (var property in object) {
-    console.log(property);
-  }
-};
-
 var getReview = function(title) {
   for (var property in movies) {
     if (movies[property].title === title) {
-      console.log(movies[property]);
-      return(movies[property]);
+      return(movies[property].review);
     }
   }
 };
@@ -103,8 +96,7 @@ This program would return the following:
 
 {% highlight bash %}
 
-$ { title: 'Interstellar',
-    review: '5 stars. One of the most realistic movies about interstellar travel ever made. Excellent example of Nolan\'s mind-bending narrative style.' }
+$ '5 stars. One of the most realistic movies about interstellar travel ever made. Excellent example of Nolan\'s mind-bending narrative style.'
 
 {% endhighlight %}
 
@@ -113,4 +105,3 @@ $ { title: 'Interstellar',
 
 * Disadvantages:
   * Highly verbose for such a simple program. It's a bit unwieldy for a list with less than a few dozen titles. Most of the code here involves adding properties to the object and manipulating them.
-  * Output is also verbose and returns pieces of the program's syntax.
