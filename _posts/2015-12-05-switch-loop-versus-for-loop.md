@@ -1,6 +1,7 @@
 ---
 title: "'Switch' Statement versus 'For' Loop in JavaScript"
-date: 2015-12-04 09:44:00
+date: 2015-12-04 16:40:00
+categories: javascript
 ---
 
 *The following post is ported over from [VarietyScript](http://varietyscript.wordpress.com) and has been edited for grammar and relevance.*
