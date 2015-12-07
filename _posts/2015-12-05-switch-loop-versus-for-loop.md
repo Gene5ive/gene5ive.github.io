@@ -6,7 +6,7 @@ categories: javascript
 
 *The following post is ported over from [VarietyScript](http://varietyscript.wordpress.com) and has been edited for grammar and relevance.*
 
-I just learned how to use switch loops and for loops in JavaScript. I noticed that they can be used interchangeably in some instances but also that both have their advantages and disadvantages.
+I just learned how to use 'switch' loops and 'for' loops in JavaScript. I noticed that they can be used interchangeably in some instances but also that both have their advantages and disadvantages.
 
 Here are two variations of a program which retrieves a movie review based on the movie's name. The first example uses a 'switch' statement which I wrote as instructed directly from a lesson on [Codecademy](https://codecademy.com):
 
